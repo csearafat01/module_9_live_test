@@ -35,8 +35,6 @@ class _MyHomePageState extends State<MyHomePage> {
     Colors.grey,
     Colors.grey,
     Colors.grey,
-
-
   ];
 
   // Create a list of button sizes
@@ -53,7 +51,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void handleButtonTap(int index) {
     setState(() {
-
       buttonColors[index] = Colors.amber;
 
       if (selectedIndex != -1 && selectedIndex != index) {
